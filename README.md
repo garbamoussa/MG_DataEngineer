@@ -103,3 +103,7 @@ Pour lancer le projet en locale
 2. Une fois le requiremets installés exutez la commade "**python main.py**" pour lancer le projet
 3. Une menu est proposé
 6. Tapez la commande 1 sur le terminal pour voir la donéé json ou 2   pour voir le traitement ad_hoc
+
+
+<h1 align=center>Axes d'amélioration dans un contexte de Big data</h1>
+
