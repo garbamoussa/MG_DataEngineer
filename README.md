@@ -1,5 +1,8 @@
-Classe Traitement
 
+
+
+
+Classe Traitement
 
 
 Cette classe est utilisée pour extraire les articles pour chaque médicament. 
@@ -16,13 +19,18 @@ Cette classe contient 3 fonctions :
     
 Les fonctions d'extraction et de prétraitement traitent un seul jeu de données à la fois. 
 
+
+
 J'ai choisi de les construire ainsi afin de paralléliser l'exécution pour chaque jeu de données. En effet, le graphe est créé de telle manière que nous pouvons être remplis simultanément avec les publications médicales et les articles scientifiques. Nous appliquons ensuite 'set' à la colonne journal afin d'éviter de la compter deux fois (dans le cas où deux articles du même journal citent le même médicament le même jour).
+
+
+
 Adhoc  fonction très simple qui récupère tous les journaux dans notre graphique et utilise Counter pour avoir le nombre d'occurrences pour chaque journal.
 
 
 
 
-                                            ############# INSTALLATION ##############
+                                            ############# INSTALLATION DE LOGICIELS  ##############
 
 1. INSTALLER PYTHON
 2. INSTALLER DOCKER
@@ -31,10 +39,10 @@ Adhoc  fonction très simple qui récupère tous les journaux dans notre graphiq
 
 
 
-                                           ############## LANCEMENT DU PROJET  ###############
+############################################################################# LANCEMENT DU PROJET #########################################################
 
 
-##################### AVEC   Docker ##################
+                                                     ##################### Docker ##################
 
 
 1. Aller à la racine du projet
@@ -45,7 +53,7 @@ Adhoc  fonction très simple qui récupère tous les journaux dans notre graphiq
 6. Tapez la commande 1 sur le terminal pour voir la donné en format json ou 2   pour voir le traitement ad_hoc
 
 
-###########################  EN LOCALE ##################
+                                                   ########################  EN LOCALE ##################
 
 
 pour lancer le projet en locale
