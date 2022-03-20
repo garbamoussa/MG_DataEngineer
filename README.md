@@ -1,6 +1,41 @@
 
+<h1 align=center>Python et Data Engineering</h1>
 
 
+
+
+
+
+<h1 align=center>Données</h1>
+
+drugs.csv : contient les noms de drugs (des médicaments) avec un id (atccode) et un nom (drug)
+
+pubmed.csv : contient des titres d’articles PubMed (title) associés un journal (journal)   une date donnée (date) ainsi qu’un id (id)
+
+pubmed.json : même structure que pubmed.csv mais en format JSON
+
+clinical_trials.csv : contient des publications scientifiques avec un titre (scientific_title), un id (id), un journal (journal) et une date (date).
+
+
+
+<h2 align=center> Test Python DE Servier :</h2>
+
+<h3>Auteur: </h3>
+
+GARBA Moussa<br>
+
+
+
+<h2>Objectifs</h2>
+
+L’objectif est de construire une data pipeline permettant de traiter les données définies dans la partie précédente afin de générer le résultat décrit dans la partie 3.
+
+Data pipeline
+
+Votre data pipeline doit produire en sortie un fichier JSON qui représente un graphe de liaison entre les différents médicaments et leurs mentions respectives dans les différentes publications PubMed, les différentes publications scientifiques et enfin les journaux avec la date associée   chacune de ces mentions. La représentation ci-dessous permet de visualiser ce qui est attendu. Il peut y avoir plusieurs manières de modéliser cet output et vous pouvez justifier votre vision
+
+
+<h2>Démarches</h2>
 
 Classe Traitement
 
