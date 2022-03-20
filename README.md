@@ -109,13 +109,38 @@ Pour lancer le projet en locale
 
 <h1 align=center>Axes d'amélioration dans un contexte de Big data</h1>
 
+Les éléments à considérer  pour manipuler les données massives: 
+    Les  matérielles à utiliser 
+    
+    La rapidité d'exécution de ces codes pour générer les sorties 
+    
+    Les systèmes de gestion de donnnées et les format de fichiers.
+    
+    
+Les modifications à apporter pour intégrer de données massives 
+
+ Intégrer Spark afin de garder en mémoire les données
+ 
+ Utiliser Airflow pour connecter les bases de données et créer de fonctions ETL 
+ 
+ Optimiser les requêtes SQL pour intéroger les sources de données
+ 
+ Créer de workers afin de paralléliser les traitements de données 
+ Mettre en place de test unitaires 
+
+
 Mettre en place ETL  qui consiste à récupérer des données d’une source, à les transformer dans un nouveau format, puis à les renvoyer dans une seconde source adaptée à ce nouveau format.
 
 
 Créer des User defined Functions pour automatiser des  ETL avec Airflow pour orchestrer  de workflows et de tâches.
 
-Créer de DAG pour besoin et tâches 
+Créer de DAG pour la mise à échelle  et tâches 
 
+Utiliser pandas   Vaex pour créer des ETL et job de manipulation de large données
+
+
+
+<h1 align=center>SQL</h1>
 
 
 
