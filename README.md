@@ -22,7 +22,8 @@ Adhoc  fonction très simple qui récupère tous les journaux dans notre graphiq
 
 
 
-############PRE RECQUIS##############
+                                            ############# INSTALLATION ##############
+
 1. INSTALLER PYTHON
 2. INSTALLER DOCKER
 
@@ -30,10 +31,12 @@ Adhoc  fonction très simple qui récupère tous les journaux dans notre graphiq
 
 
 
-##############LANCEMET DU PROJET  ###############
+                                           ############## LANCEMENT DU PROJET  ###############
 
 
 ##################### AVEC   Docker ##################
+
+
 1. Aller à la racine du projet
 2. Lancer la commande "**docker build -t <nom_image> .**" pour  creer l'image
 3. Une fois l'image cree vous pouvez  lacez la commade **docker  push** pour le  publier sur le docker hub
@@ -43,6 +46,8 @@ Adhoc  fonction très simple qui récupère tous les journaux dans notre graphiq
 
 
 ###########################  EN LOCALE ##################
+
+
 pour lancer le projet en locale
 1. Installer d'abord les requirements.txt en executant la commande pip install requiremets.txt
 2. Une fois le requiremets installés exutez la commade "**python main.py**" pour lancer le projet
