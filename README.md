@@ -87,10 +87,12 @@ Adhoc  fonction très simple qui récupère tous les journaux dans notre graphiq
                                                      ##################### Docker ##################
 
 
+Docker Hub :  
+
 1. Aller à la racine du projet (repertoire du projet )
 2. Lancer la commande "**docker build -t <nom_image> .**" pour  creer l'image
-3. Une fois l'image cree vous pouvez  lacez la commade **docker  push** pour le  publier sur le docker hub
-4. Demarrer le projet e lancant la commnade **docker run -it <nom_image>**
+3. Une fois l'image creéé vous pouvez  lancez la commande **docker  push** pour le  publier sur le docker hub ( dans mon cas garbam/servierdatapipeline)
+4. Demarrer le projet en lançant la commande **docker run -it <nom_image>**
 5. Une menu est proposé 
 6. Tapez la commande 1 sur le terminal pour voir la donné en format json ou 2   pour voir le traitement ad_hoc
 
@@ -106,4 +108,14 @@ Pour lancer le projet en locale
 
 
 <h1 align=center>Axes d'amélioration dans un contexte de Big data</h1>
+
+Mettre en place ETL  qui consiste à récupérer des données d’une source, à les transformer dans un nouveau format, puis à les renvoyer dans une seconde source adaptée à ce nouveau format.
+
+
+Créer des User defined Functions pour automatiser des  ETL avec Airflow pour orchestrer  de workflows et de tâches.
+
+Créer de DAG pour besoin et tâches 
+
+
+
 
