@@ -47,12 +47,13 @@ Cette classe est utilisée pour extraire les articles pour chaque médicament.
 
 Cette classe contient 3 fonctions :
     
-    create_graph() : Cette fonction crée un Dataframe afin de représenter le graphique. Nous choisissons de représenter le graphique sous forme de Dataframe car nous pouvons facilement le convertir en json et il est plus facile à manipuler.
+    - create_graph() : Cette fonction crée un Dataframe afin de représenter le graphique. 
+    Nous choisissons de représenter le graphique sous forme de Dataframe car nous pouvons facilement le convertir en json et il est plus facile à manipuler.
 
 
-    traitement_datase() : prétraitement du jeu de données afin d'éviter les doublons et de supprimer les lignes inutiles afin de gagner du temps si nous traitons des jeux de données plus importants.
+    - traitement_datase() : prétraitement du jeu de données afin d'éviter les doublons et de supprimer les lignes inutiles afin de gagner du temps si nous traitons des jeux de données plus importants.
 
-    Extraction() : Pour chaque médicament, on extrait les articles qui le citent.
+    - Extraction() : Pour chaque médicament, on extrait les articles qui le citent.
     
     
 Les fonctions d'extraction et de prétraitement traitent un seul jeu de données à la fois. 
