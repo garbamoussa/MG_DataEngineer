@@ -1,6 +1,9 @@
 
 ![Servier](download.jpeg "Legend")
 
+Objectif : Réaliser un code clair et proprement structuré. Mettre en avant les  éléments considérés comme essentiels pour du code utilisable dans un environnement de production. Mettre l’accent sur vos connaissances en conception de jobs de manipulation de données ainsi que les bonnes pratiques python.
+
+
 
 <h1 align=center>Python et Data Engineering</h1>
 
