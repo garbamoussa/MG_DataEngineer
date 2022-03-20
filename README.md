@@ -140,7 +140,7 @@ Utiliser pandas   Vaex pour créer des ETL et job de manipulation de large donn�
 
 
 
-<h1 align=center>SQL : Réaliser des requ tes SQL claires et facilement compr hensibles</h1>
+<h1 align=center>SQL : Réaliser des requêtes SQL claires et facilement compréhensibles</h1>
 
 
 Vous trouverez deux fichiers format sql ventes.sql et vente_Meubles_Deco.sql 
