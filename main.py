@@ -7,7 +7,7 @@ from traitemet_ad_hoc import Count_Journal
 
 print("##################  menu data  pipeline ####################")
 
-print("1 pour voir la donnee  en json:  \n2 pour voir le traitemet   ad_hoc : ")
+print("1 pour voir la donnee  en JSON:  \n2 pour voir le traitement   ad_hoc : ")
 result_input = input("....")
 print(result_input)
 if result_input == '1':
@@ -19,4 +19,4 @@ elif result_input=='2':
     json_file = Pipeline2('drugs.csv',
                           'clinical_trials.csv',
                           'pubmed.csv')
-    print("le json produit par la data pipeline qui  extracte le nom du journal qui mentionne le plus de médicaments différents",Count_Journal(json_file))
+    print("le JSON produit par la data pipeline qui  extracte le nom du journal qui mentionne le plus de médicaments différents",Count_Journal(json_file))
